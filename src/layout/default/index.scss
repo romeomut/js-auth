@@ -42,7 +42,13 @@ body {
 
 	&__title {
 		font-size: 24px;
-		color: s.color('dark');
+		color: s.color(dark);
+	}
+
+	&__subtitle {
+		font-size: 14px;
+		color: s.color(gray);
+		line-height: 1.5em;
 	}
 
 }
