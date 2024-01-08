@@ -7,9 +7,21 @@ const { Session } = require('../class/session')
 const { render } = require('sass')
 
 User.create({
-  email: 'test@mail.com',
-  password: 123,
-  rol: 1,
+  email: 'user@mail.com',
+  password: '12345678Qa',
+  role: 1,
+})
+
+User.create({
+  email: 'admin@mail.com',
+  password: '12345678Qa',
+  role: 2,
+})
+
+User.create({
+  email: 'developer@mail.com',
+  password: '12345678Qa',
+  role: 3,
 })
 
 //

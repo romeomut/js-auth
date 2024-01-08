@@ -48,6 +48,15 @@ class User {
       ) || null
     )
   }
+
+  static getById = (id) => {
+    return (
+      this.#list.find((user) => user.id === Number(id)) ||
+      null
+    )
+  }
+
+  static getlist = () => this.#list
 }
 
 module.exports = { User }
